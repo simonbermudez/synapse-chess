@@ -1,0 +1,86 @@
+
+body {
+	background-color: #808080;
+  color: #c4c4c4;
+  font-family: "Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  line-height: 130%;
+  font-size: 14pt;
+  margin: 48px;
+}
+
+a {
+	color: white;
+}
+
+#title {
+	color: white;
+  font-size: 36pt;
+  margin-bottom: 12px;
+  margin-left: 2px;
+}
+
+.q {
+	font-size: 18pt;
+  margin-bottom: 6px;
+  margin-top: 24px;
+  color: white;
+}
+
+#board {
+	width: 592px;
+  height: 592px;
+}
+
+#captured-pieces {
+	width: 400px;
+  height: 200px;
+}
+
+#explanation {
+	margin-top: 80px;
+	width:592px;
+
+}
+
+#game-status {
+	margin-top: 60px;
+  margin-bottom: 8px;
+  font-weight: 200;
+  color: white;
+  font-size: 18pt;
+  margin-left: 4px;
+}
+
+input:focus {
+  outline:none;
+}
+
+#play-button {
+	margin-left: 3px;
+  margin-top: 40px;
+  background-color: rgb(70,70,70);
+  border: none;
+  color: white;
+  padding: 6px 6px;
+  user-select: none;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Helvetica Neue', 'Roboto';
+  font-size: 12pt;
+  box-shadow: none;
+  outline: none;
+}
+
+
+#play-button:hover {background-color: rgb(50,50,50)}
+
+#play-button:active {
+  background-color: rgb(30,30,30);
+  box-shadow: none;
+  outline: none;
+}
+
+#tagline {
+	margin-left: 4px;
+}
