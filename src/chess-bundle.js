@@ -10,6 +10,42 @@
 
 // Global constants and basic chess info.
 
+var styles = {
+	"classic": {
+		blackSquare: 'rgb(70,70,70)',
+		whiteSquare: 'rgb(110,110,110)',
+		blackPiece: 'rgb(30,5,5)',
+		whitePiece: '#fff',
+		blackMove: 'rgb(255,128,0)',
+		whiteMove: 'rgb(0,255,128)',
+		table: 'rgb(128,128,128)',
+		text: '#fff',
+		background: '#808080'
+	},
+	"tron": {
+		blackSquare: 'rgb(70,70,70)',
+		whiteSquare: 'rgb(110,110,110)',
+		blackPiece: 'rgb(30,5,5)',
+		whitePiece: '#fff',
+		blackMove: 'rgb(255,128,0)',
+		whiteMove: 'rgb(0,255,128)',
+		table: 'rgb(128,128,128)',
+		text: '#fff',
+		background: '#808080'
+	},
+	"andtek": {
+		blackSquare: 'rgb(70,70,70)',
+		whiteSquare: 'rgb(110,110,110)',
+		blackPiece: 'rgb(30,5,5)',
+		whitePiece: '#fff',
+		blackMove: 'rgb(255,128,0)',
+		whiteMove: 'rgb(0,255,128)',
+		table: '#374356',
+		text: '#fff',
+		background: '#808080'
+	},
+}
+
 var chess = {
   GAME_ALIVE: 0,
   WHITE_WIN: 1,
@@ -27,17 +63,7 @@ var chess = {
   Q: 5,
   K: 6,
   
-  colors: {
-	  blackSquare: 'rgb(70,70,70)',
-	  whiteSquare: 'rgb(110,110,110)',
-	  blackPiece: 'rgb(30,5,5)',
-	  whitePiece: '#fff',
-	  blackMove: 'rgb(255,128,0)',
-	  whiteMove: 'rgb(0,255,128)',
-	  table: 'rgb(128,128,128)',
-	  text: '#fff',
-	  background: '#808080'
-  },
+  colors: styles.andtek,
 
 
 	inBounds: function(x, y) {
