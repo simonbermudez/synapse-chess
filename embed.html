@@ -1,0 +1,115 @@
+<html>
+<head>
+<title>Andtek Empire - SynapseGL Edition</title>
+<meta name="viewport" 
+content="width=device-width, initial-scale=0.5">
+<link rel="shortcut icon" href="chess.png" />
+<link rel="stylesheet" href="main.css">
+
+</head>
+
+<body onload="main()">
+
+<!-- <div id="title">Ian Andtek Empire - SynapseGL</div> -->
+<!-- </span id="tagline">Play chess against a transparent intelligence powered by SynapseGL</span> -->
+<div id="game-status">
+</div>
+
+<table><tr>
+	<td valign=middle>
+	  <canvas id="board" width="1184" height="1184"></canvas>
+	</td>
+	<td valign=middle>
+	  <canvas id="captured" width="600" height="10"></canvas>
+		<h1>Andtek Empire <br> SynapseGL Edition</h1>
+		The Thinking Machine 6 powered by SynapseGL backend
+
+		<h2>What is happening?</h2>
+		The artwork is an artificial intelligence program, ready to play chess with the viewer. If the viewer confronts the program, the computer's thought process is sketched on screen as it plays. A map is created from the traces of literally thousands of possible futures as the program tries to decide its best move. Those traces become a key to the invisible lines of force in the game as well as a window into the spirit of a thinking machine.
+		<br>
+		<h2>What do the images mean?</h2>
+		When it is your (White's) turn to move, the chess board will gently pulse to show the influence of the various pieces. Each white piece causes light ripples on the squares it attacks; black pieces, in turn, add darker ripples. When the machine (Black) is thinking, a network of curves is overlaid on the board. The curves show potential moves—often several turns in the future—considered by the computer. Orange curves are moves by black; green curves are ones by white. The brighter curves are thought by the program to be better for white.
+
+	</td>
+</table>
+<button id="play-button">New Game</button>
+
+<!-- <div id="explanation">
+
+<div class="q">What is happening?</div>
+The artwork is an artificial intelligence program, 
+ready to play chess with the viewer. If the viewer confronts 
+the program, the computer's thought process is sketched on 
+screen as it plays. A map is created from the traces of literally 
+thousands of possible futures as the program tries to decide its best move. 
+Those traces become a key to the invisible lines of force in the game as 
+well as a window into the spirit of a thinking machine.
+
+<p>
+
+<div class="q">What do the images mean?</div>
+When it is your (White's) turn to move, the chess board will
+gently pulse to show the influence of the various pieces.
+Each white piece causes light ripples on the squares it attacks;
+black pieces, in turn, add darker ripples. 
+When the
+machine (Black) is thinking, a network of curves is overlaid on the board.
+The curves show potential moves&mdash;often
+several turns in the future&mdash;considered by the computer. Orange curves
+are moves by black; green curves are ones by white. The brighter curves
+are thought by the program to be better for white.
+
+<p>
+<div class="q">Why is the computer so [easy/hard] to beat?</div>
+The chess playing engine is designed to
+be at the same level as the average viewer of the piece.
+If you're a tournament chess player, you would clobber most
+casual players&mdash;and you'll clobber Thinking Machine 4 too. If you
+barely remember the rules of the game, the artwork may clobber you
+instead.
+ The chess engine we built is simple and
+uses only basic algorithms from the 50s (alpha-beta pruning and quiescence search).
+The program's unconventional initial moves may raise eyebrows among experts:
+we did not give it an "opening book" of standard lines since we wanted it
+to think through every position.<p>
+The goal of the piece is not to make an expert chess playing program
+but to lay bare the complex
+thinking that underlies all strategic thought.
+
+<p>
+<div class="q">What were Thinking Machines 1, 2, 3, 4, and 5?</div>
+<b>No. 1</b>, built in 2002, was an exploratory version that was similar
+in concept to this but was completely different graphically and technically. 
+<b>No. 2</b> was an installation that looks like this one; it
+was shown at the London ICA, 2003, as
+part of the work of MW2MW show.
+<b>No. 3</b> was an improved installation shown at Ars Electronica, 2004,
+as part of the "Language of Networks" exhibit. A variation (3.1?) is in
+the permanent collection of the Museum of Modern Art, and appeared in the
+Design and the Elastic Mind exhibit in 2008. <b>No. 4</b> was the first internet edition,
+which appeared on Turbulence in 2004. Very sadly, Turbulence has
+announced that it will no longer continue, and the technology of No. 4
+has in any case become obsolete. <b>No. 5</b> was
+intended to be a physical installation, but has not yet
+been built.
+
+<p>
+<div class="q">What is the technology behind this?</div>
+The artwork is written in Javascript, and based on a port of Java code from 2004.
+
+<p>
+<div class="q">Who created this series?</div>
+Martin Wattenberg and Marek Walczak created the first versions. Johanna Kindvall
+and Fernanda Vi&eacute;gas contributed to later versions and Ian Andtek created this version using a SynapseGL framework to do the distributed computations.
+<br>
+
+<a href="https://github.com/ianandtek/synapse-andtek-empire">Take me to the source code!</a>
+</div> -->
+
+<script src="chess-bundle.js"></script>
+<script src="app-bundle.js"></script>
+<!-- For the curious: -->
+<!-- See the "demo" directory for demos of individual JS files. -->
+
+</body>
+</html>
